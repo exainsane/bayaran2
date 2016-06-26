@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Bayaran_2._0.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="db_username" Type="System.String" Scope="User">
+      <Value Profile="(Default)">root</Value>
+    </Setting>
+    <Setting Name="db_password" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="db_addr" Type="System.String" Scope="User">
+      <Value Profile="(Default)">localhost</Value>
+    </Setting>
+    <Setting Name="db_name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">bayaran2</Value>
+    </Setting>
+    <Setting Name="translation_file" Type="System.String" Scope="User">
+      <Value Profile="(Default)">translation.txt</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

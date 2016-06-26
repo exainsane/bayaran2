@@ -1,0 +1,41 @@
+d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\bin\Debug\Bayaran 2.0.exe
+d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\bin\Debug\Bayaran 2.0.pdb
+d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\obj\Debug\Bayaran_2._0.Forms.inputform.resources
+d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\obj\Debug\Bayaran_2._0.tableform.resources
+d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\obj\Debug\Bayaran_2._0.Properties.Resources.resources
+d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\obj\Debug\Bayaran 2.0.csproj.GenerateResource.Cache
+d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\obj\Debug\Bayaran 2.0.exe
+d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\obj\Debug\Bayaran 2.0.pdb
+d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\bin\Debug\MySql.Data.dll
+d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\bin\Debug\Bayaran 2.0.exe.config
+d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\obj\Debug\Bayaran_2._0.Forms.Transaksi.resources
+d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\obj\Debug\Bayaran_2._0.Forms.FormDataMhs.resources
+d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\obj\Debug\Bayaran_2._0.forms.installer.resources
+d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\bin\Debug\System.Data.DataSetExtensions.dll
+d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\bin\Debug\System.Data.dll
+d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\bin\Debug\System.Deployment.dll
+d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\bin\Debug\System.dll
+d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\bin\Debug\System.Drawing.dll
+d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\bin\Debug\System.Windows.Forms.dll
+d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\bin\Debug\System.Xml.dll
+d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\bin\Debug\System.Xml.Linq.dll
+d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\obj\Debug\Bayaran_2._0.Forms.Startup.resources
+d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\obj\Debug\Bayaran_2._0.Forms.GolonganBayaran.resources
+d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\obj\Debug\Bayaran_2._0.Forms.FormNomalUmum.resources
+d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\obj\Debug\Bayaran_2._0.Forms.FormTipeTransaksi.resources
+d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\obj\Debug\Bayaran_2._0.Forms.FormNominalKhusus.resources
+d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\obj\Debug\Bayaran_2._0.Forms.FormNominalKhususCRUD.resources
+d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\obj\Debug\Bayaran_2._0.Forms.FormAssignGolongan.resources
+d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\obj\Debug\Bayaran_2._0.Forms.FormAssignGolonganCRUD.resources
+d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\obj\Debug\Bayaran_2._0.Forms.FormAssignGolonganBatch.resources
+d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\bin\Debug\MRG.Controls.UI.dll
+d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\bin\Debug\MRG.Controls.UI.pdb
+d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\obj\Debug\Bayaran_2._0.Forms.Helper.TransaksiPrompt.resources
+d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\obj\Debug\RdlCompile.cache
+d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\obj\Debug\RdlCompile.compiled
+d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\obj\Debug\Bayaran_2._0.Forms.Reporting.ReportFrame.resources
+d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\obj\Debug\Bayaran_2._0.Forms.Reporting.ReportStart.resources
+d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\obj\Debug\Bayaran 2.0.csprojResolveAssemblyReference.cache
+d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\obj\Debug\Bayaran_2._0.Forms.Importer.resources
+d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\bin\Debug\EPPlus.dll
+d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\bin\Debug\EPPlus.xml

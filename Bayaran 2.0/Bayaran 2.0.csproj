@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8F5AE0E4-F0C1-45DF-BFAD-52BFC100CB73}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Bayaran_2._0</RootNamespace>
+    <AssemblyName>Bayaran 2.0</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EPPlus">
+      <HintPath>E:\Projects\NET\EPPLus (xlsx)\EPPlus 4.0.4\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="MRG.Controls.UI">
+      <HintPath>E:\Projects\NET\MRGLoadingCirclesrc\LoadingCircle\MRG.Controls.UI\bin\Debug\MRG.Controls.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>E:\Projects\NET\Assembly\mysql-connector-net-1.0.10-noinstall_2\bin\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Deployment">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controller\BaseController.cs" />
+    <Compile Include="Controller\ControllerAssignGolongan.cs" />
+    <Compile Include="Controller\ControllerGolongan.cs" />
+    <Compile Include="Controller\ControllerMhs.cs" />
+    <Compile Include="Controller\ControllerNominalKhusus.cs" />
+    <Compile Include="Controller\ControllerNominalUmum.cs" />
+    <Compile Include="Controller\ControllerReport.cs" />
+    <Compile Include="Controller\ControllerTipetransaksi.cs" />
+    <Compile Include="Controller\ControllerTransaksi.cs" />
+    <Compile Include="Forms\ControllerTipeTransaksi.cs" />
+    <Compile Include="Forms\FormAssignGolongan\FormAssignGolongan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormAssignGolongan\FormAssignGolongan.Designer.cs">
+      <DependentUpon>FormAssignGolongan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormAssignGolongan\FormAssignGolonganBatch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormAssignGolongan\FormAssignGolonganBatch.Designer.cs">
+      <DependentUpon>FormAssignGolonganBatch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormAssignGolongan\FormAssignGolonganCRUD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormAssignGolongan\FormAssignGolonganCRUD.Designer.cs">
+      <DependentUpon>FormAssignGolonganCRUD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormDataMhs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormDataMhs.Designer.cs">
+      <DependentUpon>FormDataMhs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormNomalUmum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormNomalUmum.Designer.cs">
+      <DependentUpon>FormNomalUmum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormNominalKhusus\FormNominalKhusus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormNominalKhusus\FormNominalKhusus.Designer.cs">
+      <DependentUpon>FormNominalKhusus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormNominalKhusus\FormNominalKhususCRUD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormNominalKhusus\FormNominalKhususCRUD.Designer.cs">
+      <DependentUpon>FormNominalKhususCRUD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormTipeTransaksi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormTipeTransaksi.Designer.cs">
+      <DependentUpon>FormTipeTransaksi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\GolonganBayaran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\GolonganBayaran.Designer.cs">
+      <DependentUpon>GolonganBayaran.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Helper\TransaksiPrompt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Helper\TransaksiPrompt.Designer.cs">
+      <DependentUpon>TransaksiPrompt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Importer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Importer.Designer.cs">
+      <DependentUpon>Importer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\inputform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\inputform.Designer.cs">
+      <DependentUpon>inputform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\installer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\installer.designer.cs">
+      <DependentUpon>installer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Reporting\ReportFrame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Reporting\ReportFrame.Designer.cs">
+      <DependentUpon>ReportFrame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Reporting\ReportStart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Reporting\ReportStart.Designer.cs">
+      <DependentUpon>ReportStart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Startup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Startup.Designer.cs">
+      <DependentUpon>Startup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\tableform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\tableform.Designer.cs">
+      <DependentUpon>tableform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Transaksi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Transaksi.Designer.cs">
+      <DependentUpon>Transaksi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Included\locker.cs" />
+    <Compile Include="Included\xmlClasses.cs" />
+    <Compile Include="Library\AppCentre.cs" />
+    <Compile Include="Library\data_report.cs" />
+    <Compile Include="Library\PrintPageEvetnArgs.cs" />
+    <Compile Include="Library\Query.cs" />
+    <Compile Include="Library\Manipulator.cs" />
+    <Compile Include="Library\mysql.cs" />
+    <Compile Include="Library\StructPrint.cs" />
+    <Compile Include="Library\Translation.cs" />
+    <Compile Include="Model\DataStructure.cs" />
+    <Compile Include="Model\GenericDelegate.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\FormAssignGolongan\FormAssignGolongan.resx">
+      <DependentUpon>FormAssignGolongan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAssignGolongan\FormAssignGolonganBatch.resx">
+      <DependentUpon>FormAssignGolonganBatch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAssignGolongan\FormAssignGolonganCRUD.resx">
+      <DependentUpon>FormAssignGolonganCRUD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormDataMhs.resx">
+      <DependentUpon>FormDataMhs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormNomalUmum.resx">
+      <DependentUpon>FormNomalUmum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormNominalKhusus\FormNominalKhusus.resx">
+      <DependentUpon>FormNominalKhusus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormNominalKhusus\FormNominalKhususCRUD.resx">
+      <DependentUpon>FormNominalKhususCRUD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormTipeTransaksi.resx">
+      <DependentUpon>FormTipeTransaksi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\GolonganBayaran.resx">
+      <DependentUpon>GolonganBayaran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Helper\TransaksiPrompt.resx">
+      <DependentUpon>TransaksiPrompt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Importer.resx">
+      <DependentUpon>Importer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\inputform.resx">
+      <DependentUpon>inputform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\installer.resx">
+      <DependentUpon>installer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Reporting\ReportFrame.resx">
+      <DependentUpon>ReportFrame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Reporting\ReportStart.resx">
+      <DependentUpon>ReportStart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Startup.resx">
+      <DependentUpon>Startup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\tableform.resx">
+      <DependentUpon>tableform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Transaksi.resx">
+      <DependentUpon>Transaksi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Report\ReportPerMahasiswa.rdlc" />
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\Bayaran_2._0.Controller.ControllerAssignGolongan+vw_assign_golongan.datasource" />
+    <None Include="Properties\DataSources\Bayaran_2._0.Model.DataStructure+as_mhs_golongan.datasource" />
+    <None Include="Properties\DataSources\Bayaran_2._0.Model.DataStructure+as_nominal_khusus.datasource" />
+    <None Include="Properties\DataSources\Bayaran_2._0.Model.DataStructure+ms_golongan.datasource" />
+    <None Include="Properties\DataSources\Bayaran_2._0.Model.DataStructure+ms_mhs.datasource" />
+    <None Include="Properties\DataSources\Bayaran_2._0.Model.DataStructure+ms_nominal_umum.datasource" />
+    <None Include="Properties\DataSources\Bayaran_2._0.Model.DataStructure+ms_type_transaksi.datasource" />
+    <None Include="Properties\DataSources\Bayaran_2._0.Model.DataStructure+tr_bayar.datasource" />
+    <None Include="Properties\DataSources\Bayaran_2._0.Model.ReportStructure+ReportByMhs.datasource" />
+    <None Include="Properties\DataSources\Bayaran_2._0.Model.ReportStructure+ReportByTransaksi.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Report\ReportPerTransaksi.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_ok.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_assign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_batch_assign.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

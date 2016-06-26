@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<app_settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <db />
+  <ip>localhost</ip>
+  <dbuser>root</dbuser>
+  <dbpass />
+  <dbname>prj_bayaran2</dbname>
+  <app_debug>0</app_debug>
+</app_settings>

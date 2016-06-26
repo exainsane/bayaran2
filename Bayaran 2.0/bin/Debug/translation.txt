@@ -1,0 +1,4 @@
+aux:Keterangan
+nim:No._Registrasi
+otp:Pembayaran Kuantitatif
+tipetrans:Jenis Transaksi
