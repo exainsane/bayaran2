@@ -76,6 +76,7 @@
     <Compile Include="Controller\BaseController.cs" />
     <Compile Include="Controller\ControllerAssignGolongan.cs" />
     <Compile Include="Controller\ControllerGolongan.cs" />
+    <Compile Include="Controller\ControllerLog.cs" />
     <Compile Include="Controller\ControllerMhs.cs" />
     <Compile Include="Controller\ControllerNominalKhusus.cs" />
     <Compile Include="Controller\ControllerNominalUmum.cs" />
@@ -161,6 +162,18 @@
     <Compile Include="Forms\installer.designer.cs">
       <DependentUpon>installer.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FormLogTransaksi\LogDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormLogTransaksi\LogDetail.Designer.cs">
+      <DependentUpon>LogDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormLogTransaksi\LogTransaksi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormLogTransaksi\LogTransaksi.Designer.cs">
+      <DependentUpon>LogTransaksi.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Reporting\ReportFrame.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -217,6 +230,9 @@
     <EmbeddedResource Include="Forms\FormDataMhs.resx">
       <DependentUpon>FormDataMhs.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormLogTransaksi\LogDetail.resx">
+      <DependentUpon>LogDetail.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormNomalUmum.resx">
       <DependentUpon>FormNomalUmum.cs</DependentUpon>
     </EmbeddedResource>
@@ -243,6 +259,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\installer.resx">
       <DependentUpon>installer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormLogTransaksi\LogTransaksi.resx">
+      <DependentUpon>LogTransaksi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Reporting\ReportFrame.resx">
       <DependentUpon>ReportFrame.cs</DependentUpon>
@@ -273,6 +292,7 @@
     <None Include="app.config" />
     <None Include="packages.config" />
     <None Include="Properties\DataSources\Bayaran_2._0.Controller.ControllerAssignGolongan+vw_assign_golongan.datasource" />
+    <None Include="Properties\DataSources\Bayaran_2._0.Controller.ControllerLog+LogSummaryData.datasource" />
     <None Include="Properties\DataSources\Bayaran_2._0.Model.DataStructure+as_mhs_golongan.datasource" />
     <None Include="Properties\DataSources\Bayaran_2._0.Model.DataStructure+as_nominal_khusus.datasource" />
     <None Include="Properties\DataSources\Bayaran_2._0.Model.DataStructure+ms_golongan.datasource" />

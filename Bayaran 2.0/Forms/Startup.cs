@@ -21,6 +21,7 @@ namespace Bayaran_2._0.Forms
         Transaksi FormTransaksi;
         ReportStart FormReportStart;
         Importer FormImporter;
+        LogTransaksi FormLogTransaksi;
         public Startup()
         {
             InitializeComponent();
@@ -82,6 +83,11 @@ namespace Bayaran_2._0.Forms
         private void button9_Click_1(object sender, EventArgs e)
         {
             Start<Importer>(ref FormImporter);
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            Start<LogTransaksi>(ref FormLogTransaksi);
         }
     }
 }

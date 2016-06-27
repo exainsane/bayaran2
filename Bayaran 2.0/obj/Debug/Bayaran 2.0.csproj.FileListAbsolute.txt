@@ -39,3 +39,5 @@ d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\obj\Debug\Bayara
 d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\obj\Debug\Bayaran_2._0.Forms.Importer.resources
 d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\bin\Debug\EPPlus.dll
 d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\bin\Debug\EPPlus.xml
+d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\obj\Debug\Bayaran_2._0.Forms.LogDetail.resources
+d:\document\visual studio 2013\Projects\Bayaran 2.0\Bayaran 2.0\obj\Debug\Bayaran_2._0.Forms.LogTransaksi.resources
